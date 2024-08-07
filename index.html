@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>Catherine's Trip to Michigan, Aug. 2023</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>My 2023 Summer Trip to Michigan</h1>
-      <h2>
+      <h1 id="mainHeading">My 2023 Summer Trip to Michigan</h1>
+      <h2 id="subtitle">
         Last summer, I visited the western side of Michigan with my boyfriend.
         We went to a bunch of different towns while we were there to really
         experience it all. The beaches are beautiful, there are fun lighthouses,
@@ -15,36 +16,38 @@
       <h3>Here are all the towns we visited:</h3>
       <ul>
         <li>
-          <a href="#yankee_springs">Yankee Springs State Park</a>
+          <a href="#yankee_springs" class="button">Yankee Springs State Park</a>
         </li>
         <li>
-          <a href="#holland">Holland</a>
+          <a href="#holland" class="button">Holland</a>
         </li>
         <li>
-          <a href="#saugatuck_and_douglas">Saugatuck and Douglas</a>
+          <a href="#saugatuck_and_douglas" class="button"
+            >Saugatuck and Douglas</a
+          >
         </li>
         <li>
-          <a href="#grand_haven">Grand Haven</a>
+          <a href="#grand_haven" class="button">Grand Haven</a>
         </li>
         <li>
-          <a href="#grand_rapids">Grand Rapids</a>
+          <a href="#grand_rapids" class="button">Grand Rapids</a>
         </li>
         <li>
-          <a href="#fennville">Fennville</a>
+          <a href="#fennville" class="button">Fennville</a>
         </li>
         <li>
-          <a href="#south_haven">South Haven</a>
+          <a href="#south_haven" class="button">South Haven</a>
         </li>
         <li>
-          <a href="#kalamazoo">Kalamazoo</a>
+          <a href="#kalamazoo" class="button">Kalamazoo</a>
         </li>
       </ul>
     </header>
     <main>
-      <article>
-        <div>
+      <article class="town_list">
+        <div class="town">
           <a id="yankee_springs"><h3>Yankee Springs State Park</h3></a>
-          <p>
+          <p id="testP" class="funParagraph">
             After an awful drive through pouring down rain, we made it to our
             first location of the week: Yankee Springs State Park. We were at a
             campsite very close to Gun Lake, one of the nine lakes located
@@ -53,7 +56,7 @@
           </p>
           <figure>
             <img
-              src="https://ucbedc51134fe7e821f1d61f2a5e.dl.dropboxusercontent.com/cd/0/inline/CYF-XQPFSU_q-1UhAgXvv5fNwedvZemd7chc5xXtyVC8SbaRLhN39nwhO4kDg1yGkpdlBt8RglbiotZI6_hsKPo13S4ciu5Zo5RHYI9l9VPcb4s5zGrgyifVUjwbHGL1NLzs7l2EmD2mGuFqaojeZbMH/file#"
+              src="./images/yankeesprings_img.jpg"
               alt="Sunset over Gun Lake at Yankee Springs State Park"
               width="504"
               height="378"
@@ -63,9 +66,9 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="holland"><h3>Holland</h3></a>
-          <p>
+          <p class="funParagraph">
             In Holland, we went to 3 different breweries: New Holland Brewing,
             Our Brewing Company, and Big Lake Brewing. We also visited our first
             beach and lighthouse of the week there! It was too cold to get in
@@ -73,7 +76,7 @@
           </p>
           <figure>
             <img
-              src="https://uc296e3048ef970a7f9edead00cd.dl.dropboxusercontent.com/cd/0/inline/CYEoU5_eDd6-HidtFwtVdVf_-33DonDmKFDVH5aQzOu3Hi4NycdsfCaQaZFT8vZczBine0BBhU52x_nf4qqoE07zQgPnwFCCDz0LEFloM9hNpwGZxLYZEA6NhpDV35tLT8JV8sg8KBarPhVmN-6cJmTv/file#"
+              src="./images/holland_img.jpg"
               alt="Big Red Lighthouse in front of Holland coastline"
               width="504"
               height="378"
@@ -83,9 +86,9 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="saugatuck_and_douglas"><h3>Saugatuck and Douglas</h3></a>
-          <p>
+          <p class="funParagraph">
             Saugatuck and Douglas are very close to each other, so it's easy to
             tour the two at the same time. We went up Mount Baldhead in
             Saugatuck, which is a large dune, then came down the other side to
@@ -94,7 +97,7 @@
           </p>
           <figure>
             <img
-              src="https://uc01088ae23a85f2282b32b38250.dl.dropboxusercontent.com/cd/0/inline/CYH85fpUjw4iCGWRlijHnfaIC6bK59ZGoqybLOVXLN7lphfOkDjQ8goSGmRrvsyiB1vVBqo9e-vTIzNvpCjoJ8UHLPpbakmb2xXgGUcT8Os6_CpT5ai7LfJY5qE165jmc4JdNZfhkWIpuolVDKnJ9E1k/file#"
+              src="./images/saugatuck_img.jpg"
               alt="View from top of Mount Baldhead, Saugatuck"
               width="504"
               height="378"
@@ -105,16 +108,16 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="grand_haven"><h3>Grand Haven</h3></a>
-          <p>
+          <p class="funParagraph">
             We drove up to Grand Haven to check out another beach and
             lighthouse; this was a short visit, but we were able to grab a drink
             at Odd Side Brewery before heading out.
           </p>
           <figure>
             <img
-              src="https://uc3ea870916783dbe284787ac832.dl.dropboxusercontent.com/cd/0/inline/CYGY8lss1qAHG_M1jKgx4TpU-_-b1dRQRUbMbk1EFRR20IwuVjXl8TPjXwK1C2OB9lAPVbEFooWfRI5Tds8xzW-X_aPmL26944HvqNpVbQ-s8QMTrAeXX_t68ydViTzu2PRBTi6g_wmeswSuJ8XT__oh/file#"
+              src="./images/gh_img.jpg"
               alt="Grand Haven Lighthouse in front of beach"
               width="504"
               height="378"
@@ -125,9 +128,9 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="grand_rapids"><h3>Grand Rapids</h3></a>
-          <p>
+          <p class="funParagraph">
             Grand Rapids was one of my favorite stops; it reminds me of St.
             Louis in the way that it's a decent sized city but has a small town
             feel to it. In the suburbs of Grand Rapids, there is a gorgeous park
@@ -141,7 +144,7 @@
           </p>
           <figure>
             <img
-              src="https://uc88df6ff6d3cb473b655fb95a13.dl.dropboxusercontent.com/cd/0/inline/CYEylDzAcSW6BdnT0DZqHzIxbfB4gTWYD1PJBH6orDtIFztIrAMlWS_qbo-Gxf9rV3kxgEDvNsLqdLWdGxfNi1DJkXACNZiLBR_VEBsTM0uhZgdWOSyjHvtuEC5QooCuT3weEeQFXOTWOUoLcyIgxJiG/file#"
+              src="./images/gr_img.jpg"
               alt="The American Horse by Nina Akamu at Meijer Gardens &amp; Sculpture Park"
               width="504"
               height="378"
@@ -152,9 +155,9 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="fennville"><h3>Fennville</h3></a>
-          <p>
+          <p class="funParagraph">
             We were only in Fennville for an evening, grabbing a delicious
             dinner at Salt of the Earth. It was the best meal we had the entire
             week and I hope that I get to go back there someday soon!
@@ -166,9 +169,9 @@
             >
           </p>
         </div>
-        <div>
+        <div class="town">
           <a id="south_haven"><h3>South Haven</h3></a>
-          <p>
+          <p class="funParagraph">
             I specifically wanted to go to South Haven to attend the National
             Blueberry Festival; it was happening over the course of 3 days and
             we were only able to attend the first day, but it was a really fun
@@ -188,7 +191,7 @@
           </p>
           <figure>
             <img
-              src="https://uc38f907aa0d7497a45e8abf7b3e.dl.dropboxusercontent.com/cd/0/inline/CYGzg_g3xXd2VohfjIBuv6aYaXAWrqoSKLzdAZhc7c79b_-rLtRqR1go3FkEydpq27OkksqphsmEQ8ZxfZIoNTKKRe3XJBo35LBcx8RavhUvuKHhFFRsirfBCWHqS2G-WQA850aHhAogy_P7vkIdt317/file#"
+              src="./images/sh_img.jpg"
               alt="South Haven Lighthouse against Lake Michigan"
               width="378"
               height="504"
@@ -198,9 +201,9 @@
             </figcaption>
           </figure>
         </div>
-        <div>
+        <div class="town">
           <a id="kalamazoo"><h3>Kalamazoo</h3></a>
-          <p>
+          <p class="funParagraph">
             Kalamazoo felt like an extra special visit as that is where my
             boyfriend went to college and he hadn't been back since his school
             days. We got to walk around the town and check out two really cool
@@ -210,7 +213,7 @@
           </p>
           <figure>
             <img
-              src="https://ucad1691c14ce8e51111cb3f860b.dl.dropboxusercontent.com/cd/0/inline/CYGnkRJGtxGqMzR8TdEdnxkB3AS-dk98fJbAS646_y_Iepj1DigiJ2NzyszJUi-OiX6-IMo73JWDiCfvLAandIGr2Dz7Hg2rGmwieAJWo3YxguXTAzUmh4nql37QE06fOpAzPGGWqHMwsrt6ssd2Gc6X/file#"
+              src="./images/kalamazoo_img.jpg"
               alt="Person standing underneath street sign, pointing up at it"
               width="378"
               height="504"
